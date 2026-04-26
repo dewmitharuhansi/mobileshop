@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechZone Gadget Store</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: linear-gradient(135deg, black, darkblue);
+            color: white;
+        }
+
+        header {
+            background: #111;
+            padding: 20px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        nav {
+            background: #222;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #00c3ff;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2, h3 {
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background: #333;
+            padding: 10px;
+            width: 200px;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .offer {
+            background: red;
+            padding: 5px;
+            display: inline-block;
+            font-size: 12px;
+            border-radius: 5px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        hr {
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>🔥 TechZone Gadget Store</header>
+
+<nav>
+    <a href="#new">New Arrivals</a>
+    <a href="#phones">Smartphones</a>
+    <a href="#laptops">Laptops</a>
+    <a href="#audio">Audio</a>
+    <a href="#watch">Smartwatches</a>
+    <a href="#gaming">Gaming</a>
+</nav>
+
+<!-- NEW ARRIVALS -->
+<section id="new">
+<h2>🆕 New Arrivals</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMBcMz_AtdYPZxCIolOp03dddoSe3EkYiVBA&s">
+<h4>iPhone 16</h4>
+<p>Latest Apple model<br>Super fast chip<br>Advanced camera<br><strong>Rs.220,000</strong> | New</p>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJkRk9BlZg3sanxD5IlsBGkTubEqpDoAEzHw&s">
+<h4>Samsung S25</h4>
+<p>Next-gen performance<br>Premium design<br>Top camera<br><strong>Rs.250,000</strong> | New</p>
+</div>
+
+<div class="card">
+<img src="https://idealz.lk/wp-content/uploads/2025/02/Redmi-Note-14-4G-Lime-Green.jpg">
+<h4>Redmi Note 13</h4>
+<p>Budget friendly<br>Good performance<br>Nice display<br><strong>Rs.85,000</strong> | New</p>
+</div>
+
+<div class="card">
+<img src="https://averagedadofficial.com/cdn/shop/files/Untitled_design_20.jpg?v=1758875010&width=1946">
+<h4>Xiaomi 13</h4>
+<p>Smooth performance<br>Gaming ready<br>Good battery<br><strong>Rs.95,000</strong> | New</p>
+</div>
+
+</div>
+</section>
+
+<section id="phones">
+<h2>📱 Smartphones <span class="offer">New</span></h2>
+<div class="products">
+
+<div class="card">
+<img src="https://i.ytimg.com/vi/XiELwdNk3ak/hq720.jpg">
+<h4>iPhone 14</h4>
+<p>Smooth performance<br>Good camera<br>Reliable for daily use<br><strong>Rs.150,000</strong> | In Stock</p>
+</div>
+
+<div class="card">
+<img src="data:image/jpeg;base64,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">
+<h4>Samsung S23</h4>
+<p>Very fast<br>Premium design<br>Excellent camera<br><strong>Rs.180,000</strong> | In Stock</p>
+</div>
+
+<div class="card">
+<img src="https://i02.appmifile.com/304_operatorx_operatorx_uploadTiptapImage/25/09/2025/21ef35eac7a6b396c906c833ee109cbf.jpg">
+<h4>Xiaomi 13</h4>
+<p>Fast performance<br>Smooth multitasking<br>Great for gaming<br><strong>Rs.200,000</strong> | Limited</p>
+</div>
+
+</div>
+</section>
+
+<section id="laptops">
+<h2>💻 Laptops</h2>
+<div class="products">
+
+<div class="card">
+<img src="https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg">
+<h4>MacBook Air</h4>
+<p>Thin & light<br>Long battery life<br><strong>Rs.280,000</strong> | In Stock</p>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1cLjgKnfxvs5-zLKZzgrngnqIiG00DnkEHA&s">
+<h4>Dell XPS</h4>
+<p>Slim design<br>Great keyboard<br>Fast performance<br><strong>Rs.450,000</strong> | In Stock</p>
+</div>
+
+<div class="card">
+<img src="https://www.hp.com/content/dam/sites/worldwide/laptops-and-2-in-1s/pavilion/HP%20Pavilion%20laptops%20-%20Desktop@2x.png">
+<h4>HP Pavilion</h4>
+<p>Stylish design<br>Good for studies<br><strong>Rs.400,000</strong> | Available</p>
+</div>
+
+</div>
+</section>
+
+<section id="audio">
+<h2>🎧 Audio & Headphones <span class="offer">20% OFF</span></h2>
+<div class="products">
+
+<div class="card">
+<img src="https://media.istockphoto.com/id/1210385904/photo/sony-wh-1000xm3-noise-canceling-wireless-headphones-on-a-white-background.jpg">
+<h4>Sony Headphones</h4>
+<p>Long battery life<br>Great sound<br><strong>Rs.20,000</strong> | In Stock</p>
+</div>
+
+<div class="card">
+<img src="https://img.freepik.com/free-photo/earphones-with-case-surrounded-by-nature-scene_23-2150165594.jpg">
+<h4>AirPods</h4>
+<p>Easy connection<br>Good sound<br><strong>Rs.30,000</strong> | Available</p>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp3vjew8w7vwegzdUDCpaayNHDb5GiBtC19A&s">
+<h4>JBL Speaker</h4>
+<p>Loud & clear<br>Portable<br><strong>Rs.25,000</strong> | In Stock</p>
+</div>
+
+</div>
+</section>
+
+<section id="watch">
+<h2>⌚ Smartwatches</h2>
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1624096104992-9b4fa3a279dd">
+<h4>Apple Watch</h4>
+<p>Smart features<br>Good battery<br><strong>Rs.70,000</strong> | In Stock</p>
+</div>
+
+<div class="card">
+<img src="data:image/jpeg;base64,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">
+<h4>Galaxy Watch</h4>
+<p>Smart notifications<br>Modern design<br><strong>Rs.40,000</strong> | Available</p>
+</div>
+
+<div class="card">
+<img src="https://media.gettyimages.com/id/1733640705/photo/google-pixel-watch-2-close-up.jpg">
+<h4>Fitbit</h4>
+<p>Fitness tracking<br>Easy to use<br><strong>Rs.50,000</strong> | Limited</p>
+</div>
+
+</div>
+</section>
+
+<section id="gaming">
+<h2>🎮 Gaming Accessories</h2>
+<div class="products">
+
+<div class="card">
+<img src="https://t4.ftcdn.net/jpg/06/25/07/31/360_F_625073135_IixKG2q7WLZUhuuA5nWnSmUB3PP0lCBL.jpg">
+<h4>Gaming Mouse</h4>
+<p>Fast response<br>Comfortable<br><strong>Rs.8,000</strong> | In Stock</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3">
+<h4>Keyboard</h4>
+<p>Good for gaming<br>Popular choice<br><strong>Rs.2,000</strong> | Available</p>
+</div>
+
+<div class="card">
+<img src="https://img.freepik.com/free-photo/black-headphones-digital-device_53876-96805.jpg">
+<h4>Headset</h4>
+<p>Clear sound<br>Easy to use<br><strong>Rs.9,000</strong> | In Stock</p>
+</div>
+
+</div>
+</section>
+
+<hr>
+
+<h2>Special Offers</h2>
+<p style="text-align:center;">20% Discount for Laptops</p>
+<p style="text-align:center;">Buy items over Rs.50,000 and get 20% OFF</p>
+<p style="text-align:center;">Free mouse with gaming keyboard</p>
+
+<hr>
+
+</body>
+</html>
